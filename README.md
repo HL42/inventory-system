@@ -12,7 +12,6 @@
 **🔴 Live Demo:** [https://inventory-system-liart-iota.vercel.app/](https://inventory-system-liart-iota.vercel.app/)
 
 ![Dashboard Screenshot](./screenshot.png)
-*Note: Take a screenshot of your dashboard, name it `screenshot.png`, and upload it to the root directory to display it here.*
 
 ---
 
@@ -263,103 +262,9 @@ Deletes a product by its MongoDB `_id`.
 
 ---
 
-## 🌐 Deployment Guide
-
-### Deploy Backend (Render)
-
-1. Push your code to GitHub
-2. Go to [Render](https://render.com) and create a new Web Service
-3. Connect your repository
-4. Configure:
-   - **Build Command**: `cd server && npm install`
-   - **Start Command**: `node server/index.js`
-5. Add environment variables: `MONGO_URI` and `PORT`
-6. Deploy!
-
-### Deploy Frontend (Vercel)
-
-1. Push your code to GitHub
-2. Go to [Vercel](https://vercel.com) and import your project
-3. Configure:
-   - **Root Directory**: `client`
-   - **Framework Preset**: Vite
-4. Update `API_BASE_URL` in `App.jsx` to your Render backend URL
-5. Deploy!
-
----
-
-## 💡 Usage Tips
-
-### Importing Data from Excel
-
-1. Prepare your Excel file with these columns:
-   - `Product Name` or `name`
-   - `Category` or `category`
-   - `Price` or `price`
-   - `Stock` or `stock`
-
-2. Click the **Import** button
-3. Select your `.xlsx` or `.xls` file
-4. Data will be automatically uploaded to MongoDB
-
-### Exporting Reports
-
-1. Click the **Export** button
-2. File `Nexus_Inventory_Data.xlsx` will be downloaded
-3. Contains all current inventory data
-
-### Monitoring Low Stock
-
-- Products with stock < 10 show a red indicator
-- Check the "Low Stock Alert" chart on dashboard
-- Bottom 5 products are highlighted in red
-
----
-
-## 🎨 Features Showcase
-
-### Dashboard Analytics
-- **Total Products**: Live count of inventory items
-- **Total Value**: Calculated sum of (price × stock) for all products
-- **Low Stock Alerts**: Visual chart showing items needing restocking
-
-### Data Grid
-- Sortable columns
-- Pagination support
-- Row selection
-- Inline delete actions
-- Responsive design
-
-### Dialog Forms
-- Clean, modal-based input forms
-- Real-time validation
-- Success notifications
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
 ## 📝 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
-
-## 📧 Contact
-
-**Project Repository**: [https://github.com/HL42/inventory-system](https://github.com/HL42/inventory-system)
-
-**Live Demo**: [https://inventory-system-liart-iota.vercel.app/](https://inventory-system-liart-iota.vercel.app/)
 
 ---
 
