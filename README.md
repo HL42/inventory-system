@@ -151,15 +151,17 @@ cd client
 npm install
 ```
 
-Update the API URL if running locally. Open `client/src/App.jsx` and modify:
+Update the API URL if running locally. Open `client/src/App.jsx` and modify line 79:
 
 ```javascript
-// For local development
+// For local development, use:
 const API_BASE_URL = "http://localhost:5001";
 
-// For production
+// For production deployment, comment out the line above and uncomment:
 // const API_BASE_URL = "https://nexus-backend-hchd.onrender.com";
 ```
+
+**Note**: The current code uses the production URL. Switch to `http://localhost:5001` for local development.
 
 Start the development server:
 
