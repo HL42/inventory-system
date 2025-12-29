@@ -19,16 +19,7 @@
 
 **Nexus** is an enterprise-grade inventory management system designed to streamline data entry and visualization. Unlike traditional CRUD apps, Nexus features a powerful **Excel Integration Engine**, allowing businesses to migrate legacy data in bulk and export reports with a single click.
 
-Built with the **MERN Stack**, it features a responsive "Apple-style" UI, real-time stock analytics, and low-stock alerts to help business owners make informed decisions.
-
-### Why Nexus?
-
-- 📊 **Data-Driven Insights**: Real-time visualization of inventory value and product distribution
-- 🔄 **Legacy System Integration**: Seamlessly import existing Excel spreadsheets into MongoDB
-- ⚡ **Performance**: Fast, responsive UI with optimized data operations
-- 🎨 **User Experience**: Clean, modern interface inspired by Apple's design language
-- 📈 **Scalability**: Built on proven technologies that scale with your business
-
+Built with the **MERN Stack**, real-time stock analytics, and low-stock alerts to help business owners make informed decisions.
 ---
 
 ## ✨ Key Features
